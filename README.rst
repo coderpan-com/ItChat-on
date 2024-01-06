@@ -17,7 +17,7 @@ Now Wechat is an important part of personal life, hopefully this repo can help y
 
 .. code:: bash
 
-    pip install itchat-uos
+    pip install itchat-on
 
 **Simple uses**
 

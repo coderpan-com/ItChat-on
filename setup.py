@@ -1,6 +1,8 @@
-""" A wechat personal account api project
+"""
+A wechat personal account api project
+复活 ItChat，你只需要 pip install itchat-on
 See:
-https://github.com/why2lyj/ItChat-UOS
+https://github.com/coderpan-com/ItChat-on
 """
 
 from setuptools import setup, find_packages
@@ -14,17 +16,17 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='itchat-uos',
+    name='itchat-on',
 
     version=itchat.__version__,
 
-    description='A complete wechat personal account api',
+    description='A complete wechat personal account api.(复活 ItChat，你只需要 pip install itchat-on)',
     long_description=long_description,
 
-    url='https://github.com/why2lyj/ItChat-UOS',
+    url='https://github.com/coderpan-com/ItChat-on',
 
-    author='Snow Wang',
-    author_email='admin@farseer.vip',
+    author='CoderPan',
+    author_email='cmpan@qq.com',
 
     license='MIT',
 

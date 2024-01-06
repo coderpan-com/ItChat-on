@@ -1,24 +1,14 @@
-# itchat-uos
+# itchat-on
 
-[![itchat_vesion](https://img.shields.io/badge/itchat--uos-1.4.1-green)](https://github.com/why2lyj/ItChat-UOS)
-[![Downloads](https://pepy.tech/badge/itchat-uos)](https://pepy.tech/project/itchat-uos)
-
-2017年后，新注册的微信基本登录不了网页版，itchat-uos版本利用统信UOS的网页版微信，可以让你绕过网页微信的登录限制。
+2017年后，新注册的微信基本登录不了网页版，itchat-on版本利用统信UOS的网页版微信，可以让你绕过网页微信的登录限制。
 
 你只需要执行下条命令便能复活Itchat
 
+项目对 [ItChat-UOS](https://github.com/why2lyj/ItChat-UOS) 增加了登录
+
 ```python 
-pip install itchat-uos==1.5.0.dev0
+pip install itchat-on
 ```
-
-祝各位好运 —— By Snow
-
-### 更新 - 2023/02/10
-
-目前使用 `1.5.0.dev0` 大多数使用者可能出现微信被官方封禁提醒，从已知收集的封禁情况，暂未有可解决方案。
-
-猜测可能与近期ChatGPT结合本仓库实现个性化机器人导致相关封禁，请合理，谨慎使用本仓库。
-
 
 # itchat
 
@@ -39,7 +29,7 @@ itchat是一个开源的微信个人号接口，使用python调用微信从未�
 可以通过本命令安装itchat：
 
 ```python
-pip install itchat-uos
+pip install itchat-on
 ```
 
 ## 简单入门实例
